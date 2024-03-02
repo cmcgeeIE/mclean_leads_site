@@ -1,10 +1,7 @@
-// Smooth scrolling for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
+document.getElementById('yesButton').addEventListener('click', function() {
+    window.location.href = 'contact.html'; // Redirect to contact form
+});
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
+document.getElementById('noButton').addEventListener('click', function() {
+    window.location.href = 'funny.gif'; // Redirect to funny GIF
 });
