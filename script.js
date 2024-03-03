@@ -45,3 +45,4 @@ document.getElementById('noButton').addEventListener('click', function() {
     window.location.href = 'funny.html'; // Redirect to funny page
 });
 
+
