@@ -36,4 +36,3 @@ function prevStep() {
 document.addEventListener('DOMContentLoaded', function() {
     showStep(currentStep);
 });
-
