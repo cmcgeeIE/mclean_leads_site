@@ -35,4 +35,15 @@ function prevStep() {
 
 document.addEventListener('DOMContentLoaded', function() {
     showStep(currentStep);
+
+    // Event listener for "Yes" button
+    document.getElementById('yesButton').addEventListener('click', function() {
+        window.location.href = 'contact.html'; // Redirect to contact form
+    });
+
+    // Event listener for "No" button
+    document.getElementById('noButton').addEventListener('click', function() {
+        window.location.href = 'funny.html'; // Redirect to funny page
+    });
 });
+
