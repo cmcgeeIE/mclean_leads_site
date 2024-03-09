@@ -2,19 +2,42 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 10px; /* Reduced padding for a more compact look */
 }
 
-.container {
+.video-container {
     text-align: center;
-    padding: 25px;
+    padding: 20px;
+}
+
+video {
+    width: 100%; /* Make video responsive */
+    max-width: 600px; /* Limit the maximum width to keep it visually appealing */
+    margin: auto; /* Center video in the container */
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 20px;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
 }
 
 footer {
@@ -30,25 +53,10 @@ footer {
 /* Responsive design adjustments */
 @media (max-width: 768px) {
     header {
-        padding: 20px 0;
+        padding: 10px 5px;
     }
-
-    .container {
-        padding: 15px;
-    }
-
-    footer {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 480px) {
-    body, footer {
-        font-size: 14px;
-    }
-
-    header {
-        padding: 15px 0;
+    .cta-button {
+        padding: 8px 15px; /* Slightly smaller button on mobile */
     }
 }
 
