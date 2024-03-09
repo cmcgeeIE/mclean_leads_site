@@ -2,18 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .container {
     text-align: center;
-    padding: 50px;
+    padding: 25px;
 }
 
 footer {
@@ -26,4 +27,28 @@ footer {
     width: 100%;
 }
 
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body, footer {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+}
 
