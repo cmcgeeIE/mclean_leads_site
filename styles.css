@@ -28,12 +28,8 @@ header, footer {
     aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio for the video */
 }
 
-/* Updated styles for emphasized text */
-.highlighted-text {
-    font-size: 1.5em; /* Increase text size */
-    font-weight: bold; /* Bold for emphasis */
-    color: #4CAF50; /* A contrasting color for visibility against black background */
-    margin: 0 20px; /* Add margin for text not to touch the edges */
+.highlight {
+    color: #4CAF50; /* Green color for the highlighted text */
 }
 
 .call-to-action {
@@ -57,9 +53,6 @@ header, footer {
 @media (max-width: 768px) {
     .video-container {
         max-width: 95%; /* Adjust for smaller screens */
-    }
-    .highlighted-text {
-        font-size: 1.2em; /* Adjust size for mobile devices */
     }
 }
 
