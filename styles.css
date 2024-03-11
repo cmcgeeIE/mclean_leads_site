@@ -21,7 +21,7 @@ header, footer {
 }
 
 .emphasis {
-    font-size: 3em; /* Adjust size as needed */
+    font-size: 4em; /* Adjust size as needed */
     font-weight: bold;
     color: #fff; /* Keep text color white */
     margin: 0 20px; /* Add some margin if needed */
