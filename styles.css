@@ -13,6 +13,17 @@ header, footer {
     padding: 20px 10px;
 }
 
+.emphasis {
+    font-size: 1.5em; /* Adjust size as needed */
+    font-weight: bold;
+    color: #fff; /* Keep text color white */
+    margin: 0 20px; /* Add some margin if needed */
+}
+
+.highlight {
+    color: #4CAF50; /* Applies green color only to highlighted text */
+}
+
 .video-container {
     position: relative;
     padding-top: 25px;
@@ -26,10 +37,6 @@ header, footer {
     width: 100%; /* Responsive width */
     height: auto; /* Auto-adjust height */
     aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio for the video */
-}
-
-.highlight {
-    color: #4CAF50; /* Applies green color only to highlighted text */
 }
 
 .call-to-action {
