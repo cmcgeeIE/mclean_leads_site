@@ -8,23 +8,27 @@ header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 20px 10px; /* Reduced padding for a more compact look */
+    padding: 20px 10px;
 }
 
-/* Updated video container for responsive iframe embed */
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     padding-top: 25px;
     height: 0;
+    /* Add padding around the video for buffer */
+    padding: 0 20px; /* Adjust this value to increase or decrease the buffer */
+    margin-top: 20px; /* Add some space above the video container */
+    margin-bottom: 20px; /* Add some space below the video container */
 }
 
 .video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 40px); /* Adjust width to account for padding */
+    height: calc(100% - 40px); /* Adjust height to maintain aspect ratio */
+    border: none; /* Optional: Removes the border around the iframe */
 }
 
 .call-to-action {
@@ -55,13 +59,21 @@ footer {
     width: 100%;
 }
 
-/* Responsive design adjustments */
 @media (max-width: 768px) {
     header {
         padding: 10px 5px;
     }
     .cta-button {
-        padding: 8px 15px; /* Slightly smaller button on mobile */
+        padding: 8px 15px;
+    }
+    .video-container {
+        padding: 0 10px; /* Smaller buffer on smaller screens */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .video-container iframe {
+        width: calc(100% - 20px); /* Adjust for smaller buffer on smaller screens */
+        height: calc(100% - 20px);
     }
 }
 
