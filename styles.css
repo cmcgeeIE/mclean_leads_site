@@ -16,10 +16,11 @@ header {
     padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     padding-top: 25px;
     height: 0;
-    /* Add padding around the video for buffer */
-    padding: 0 20px; /* Adjust this value to increase or decrease the buffer */
-    margin-top: 20px; /* Add some space above the video container */
-    margin-bottom: 20px; /* Add some space below the video container */
+    padding: 0 20px; /* Buffer around the video */
+    margin-top: 20px; /* Space above the video container */
+    margin-bottom: 20px; /* Space below the video container */
+    /* Ambient light-green glow effect */
+    box-shadow: 0 0 30px 10px rgba(144, 238, 144, 0.6); /* Adjust color and blur radius as needed */
 }
 
 .video-container iframe {
@@ -28,7 +29,7 @@ header {
     left: 0;
     width: calc(100% - 40px); /* Adjust width to account for padding */
     height: calc(100% - 40px); /* Adjust height to maintain aspect ratio */
-    border: none; /* Optional: Removes the border around the iframe */
+    border: none; /* Removes the border around the iframe */
 }
 
 .call-to-action {
@@ -70,6 +71,7 @@ footer {
         padding: 0 10px; /* Smaller buffer on smaller screens */
         margin-top: 10px;
         margin-bottom: 10px;
+        box-shadow: 0 0 20px 5px rgba(144, 238, 144, 0.6); /* Slightly smaller glow effect for smaller screens */
     }
     .video-container iframe {
         width: calc(100% - 20px); /* Adjust for smaller buffer on smaller screens */
