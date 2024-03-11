@@ -6,6 +6,13 @@ body {
     color: #fff; /* Sets default text color to white */
 }
 
+header {
+    max-width: 80%; /* Aligns the header's width with the video */
+    margin: 0 auto; /* Centers the header */
+    padding: 20px 0; /* Adjusts vertical padding while maintaining horizontal alignment */
+    text-align: center; /* Keeps text aligned center within the header */
+}
+
 header, footer {
     background-color: #000; /* Black background for consistency */
     color: white; /* Ensures text in header and footer is white */
