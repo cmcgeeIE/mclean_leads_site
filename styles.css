@@ -81,15 +81,15 @@ header, footer {
     }
 
     .emphasis {
-        font-size: 18px; /* Adjust the main text size for mobile */
+        font-size: 12px; /* Adjust the main text size for mobile */
     }
 
     .highlight {
-        font-size: 18px; /* Ensure the highlighted text is also adjusted if needed */
+        font-size: 12px; /* Ensure the highlighted text is also adjusted if needed */
     }
 
     .subtext {
-        font-size: 14px; /* Adjust the subtext size for mobile */
+        font-size: 10px; /* Adjust the subtext size for mobile */
     }
 
     .video-container iframe {
