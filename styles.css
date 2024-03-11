@@ -11,15 +11,20 @@ header {
     padding: 20px 10px; /* Reduced padding for a more compact look */
 }
 
+/* Updated video container for responsive iframe embed */
 .video-container {
-    text-align: center;
-    padding: 20px;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 25px;
+    height: 0;
 }
 
-video {
-    width: 100%; /* Make video responsive */
-    max-width: 600px; /* Limit the maximum width to keep it visually appealing */
-    margin: auto; /* Center video in the container */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .call-to-action {
@@ -59,4 +64,5 @@ footer {
         padding: 8px 15px; /* Slightly smaller button on mobile */
     }
 }
+
 
