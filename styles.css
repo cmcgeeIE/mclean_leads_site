@@ -77,19 +77,19 @@ header, footer {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 24px; /* Adjust as needed */
+        font-size: 28px; /* Adjust as needed */
     }
 
     .emphasis {
-        font-size: 24px; /* Adjust the main text size for mobile */
+        font-size: 28px; /* Adjust the main text size for mobile */
     }
 
     .highlight {
-        font-size: 24px; /* Ensure the highlighted text is also adjusted if needed */
+        font-size: 28px; /* Ensure the highlighted text is also adjusted if needed */
     }
 
     .subtext {
-        font-size: 14px; /* Adjust the subtext size for mobile */
+        font-size: 24px; /* Adjust the subtext size for mobile */
     }
 
     .video-container iframe {
