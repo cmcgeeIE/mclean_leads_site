@@ -14,22 +14,23 @@ header {
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    padding-top: 25px;
     height: 0;
-    padding: 0 20px; /* Buffer around the video */
     margin-top: 20px; /* Space above the video container */
     margin-bottom: 20px; /* Space below the video container */
+    padding: 0 20px; /* Horizontal padding for smaller screen sizes */
     /* Ambient light-green glow effect */
     box-shadow: 0 0 30px 10px rgba(144, 238, 144, 0.6); /* Adjust color and blur radius as needed */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 40px); /* Max width with padding included for the glow effect */
 }
 
 .video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
-    width: calc(100% - 40px); /* Adjust width to account for padding */
-    height: calc(100% - 40px); /* Adjust height to maintain aspect ratio */
-    border: none; /* Removes the border around the iframe */
+    width: 100%; /* Adjust width to account for padding */
+    height: 100%; /* Adjust height to maintain aspect ratio */
 }
 
 .call-to-action {
@@ -69,14 +70,7 @@ footer {
     }
     .video-container {
         padding: 0 10px; /* Smaller buffer on smaller screens */
-        margin-top: 10px;
-        margin-bottom: 10px;
         box-shadow: 0 0 20px 5px rgba(144, 238, 144, 0.6); /* Slightly smaller glow effect for smaller screens */
-    }
-    .video-container iframe {
-        width: calc(100% - 20px); /* Adjust for smaller buffer on smaller screens */
-        height: calc(100% - 20px);
+        max-width: calc(100% - 20px); /* Adjust max-width for smaller screens */
     }
 }
-
-
