@@ -37,6 +37,11 @@ header, footer {
     color: #4CAF50; /* Applies green color only to highlighted text */
 }
 
+.emphasis, .subtext {
+    text-align: center;
+    margin-top: 10px;
+}
+
 .video-container {
     position: relative;
     padding-top: 25px;
@@ -71,7 +76,24 @@ header, footer {
 }
 
 @media (max-width: 768px) {
-    .video-container {
-        max-width: 95%; /* Adjust for smaller screens */
+    h1 {
+        font-size: 24px; /* Adjust as needed */
+    }
+
+    .emphasis {
+        font-size: 18px; /* Adjust the main text size for mobile */
+    }
+
+    .highlight {
+        font-size: 18px; /* Ensure the highlighted text is also adjusted if needed */
+    }
+
+    .subtext {
+        font-size: 14px; /* Adjust the subtext size for mobile */
+    }
+
+    .video-container iframe {
+        height: auto; /* Adjust the video size for a better fit */
+        width: 100%;
     }
 }
