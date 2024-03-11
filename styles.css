@@ -13,24 +13,17 @@ header {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
-    margin-top: 20px; /* Space above the video container */
-    margin-bottom: 20px; /* Space below the video container */
-    padding: 0 20px; /* Horizontal padding for smaller screen sizes */
-    /* Ambient light-green glow effect */
-    box-shadow: 0 0 30px 10px rgba(144, 238, 144, 0.6); /* Adjust color and blur radius as needed */
-    margin-left: auto;
-    margin-right: auto;
-    max-width: calc(100% - 40px); /* Max width with padding included for the glow effect */
+    padding-top: 25px;
+    margin: 20px auto; /* Adjust margins to ensure visibility and centering */
+    max-width: 80%; /* Adjust based on your layout preferences */
+    box-shadow: 0 0 30px 10px rgba(144, 238, 144, 0.6); /* Glow effect */
+    overflow: hidden; /* Ensures no spill outside the container */
 }
 
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Adjust width to account for padding */
-    height: 100%; /* Adjust height to maintain aspect ratio */
+    width: 100%; /* Full width of the container */
+    height: auto; /* Adjust height automatically */
+    aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
 }
 
 .call-to-action {
@@ -62,15 +55,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    header {
-        padding: 10px 5px;
-    }
-    .cta-button {
-        padding: 8px 15px;
-    }
     .video-container {
-        padding: 0 10px; /* Smaller buffer on smaller screens */
-        box-shadow: 0 0 20px 5px rgba(144, 238, 144, 0.6); /* Slightly smaller glow effect for smaller screens */
-        max-width: calc(100% - 20px); /* Adjust max-width for smaller screens */
+        max-width: 95%; /* Allow more screen width for smaller devices */
     }
 }
