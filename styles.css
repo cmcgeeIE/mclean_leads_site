@@ -81,11 +81,11 @@ header, footer {
     }
 
     .emphasis {
-        font-size: 18px; /* Adjust the main text size for mobile */
+        font-size: 24px; /* Adjust the main text size for mobile */
     }
 
     .highlight {
-        font-size: 18px; /* Ensure the highlighted text is also adjusted if needed */
+        font-size: 24px; /* Ensure the highlighted text is also adjusted if needed */
     }
 
     .subtext {
