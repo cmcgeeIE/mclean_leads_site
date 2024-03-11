@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000; /* Black background for the whole page */
-    color: #fff; /* White text for better readability */
+    color: #fff; /* Sets default text color to white */
 }
 
 header, footer {
     background-color: #000; /* Black background for consistency */
-    color: white; /* White text for visibility */
+    color: white; /* Ensures text in header and footer is white */
     text-align: center;
     padding: 20px 10px;
 }
@@ -29,7 +29,7 @@ header, footer {
 }
 
 .highlight {
-    color: #4CAF50; /* Green color for the highlighted text */
+    color: #4CAF50; /* Applies green color only to highlighted text */
 }
 
 .call-to-action {
@@ -55,4 +55,3 @@ header, footer {
         max-width: 95%; /* Adjust for smaller screens */
     }
 }
-
