@@ -83,10 +83,10 @@ header, footer {
 }
 
 .calendly-embed {
-    max-width: 100%; /* Allows the Calendly embed to use up to 100% of its parent container's width */
-    width: 100%; /* Ensures the embed takes the full width allowed */
-    margin: 20px auto; /* Keeps it centered with vertical spacing */
-    height: 700px; /* Adjust this value as needed to prevent squishing */
+    max-width: 100%; /* Full width of its parent container */
+    width: 100%; /* Ensures it expands fully */
+    margin: 20px auto; /* Centered with vertical spacing */
+    height: 700px; /* Height adjustment to prevent squishing */
 }
 
 .personal-approach {
@@ -163,15 +163,18 @@ header, footer {
 
 @media (max-width: 768px) {
 
+    body {
+        padding: 0; /* Reduces padding on smaller screens to give more space */
+    }
+    
     header, .video-container, .testimonials, footer {
-        max-width: 95%; /* Allows more content width on smaller screens */
-        margin: 20px auto;
-        padding: 20px; /* Maintains padding for a consistent look */
+        max-width: 95%; /* Adjusts content width on smaller screens */
+        padding: 20px; /* Consistent padding for a cleaner look */
     }
     
     .calendly-embed {
-        height: auto; /* Allows the height to adjust based on the content */
-        padding-bottom: 20px; /* Adds space at the bottom for scrolling */
+        height: auto; /* Adjust height dynamically */
+        padding-bottom: 20px; /* Ensures there's space at the bottom */
     }
     
     h1 {
