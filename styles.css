@@ -161,6 +161,19 @@ header, footer {
     color: #fff; /* Make the key information stand out */
 }
 
+@font-face {
+    font-family: 'TheBold'; /* Give your font a name */
+    src: url('/fonts/the_bold_font_-_free_version_-_2023-webfont.woff2') format('woff2'), /* Primary src */
+         url('/fonts/the_bold_font_-_free_version_-_2023-webfont.woff') format('woff'); /* Fallback src */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'TheBold', sans-serif; /* Use it */
+}
+
+
 @media (max-width: 768px) {
 
     body {
