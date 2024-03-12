@@ -1,16 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0 20px; /* Adds padding to the left and right */
     background-color: #000; /* Black background for the whole page */
     color: #fff; /* Sets default text color to white */
 }
 
-header {
-    max-width: 80%; /* Aligns the header's width with the video */
-    margin: 0 auto; /* Centers the header */
-    padding: 20px 0; /* Adjusts vertical padding while maintaining horizontal alignment */
-    text-align: center; /* Keeps text aligned center within the header */
+header, .video-container, .calendly-embed, .testimonials, footer {
+    max-width: 80%; /* Adjusts content width */
+    margin: 20px auto; /* Increases margin, centers content, adds vertical space */
+    padding: 20px; /* Optional: Adds padding inside these elements for additional spacing */
+     text-align: center; /* Keeps text aligned center within the header */
 }
 
 header, footer {
@@ -102,11 +102,12 @@ header, footer {
     margin: 40px auto;
 }
 
+/* Ensure the .testimonial-row maintains its layout within the testimonials container */
 .testimonial-row {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Adjust based on your content */
-    gap: 20px; /* Space between columns */
+    align-items: flex-start;
+    gap: 20px; /* Adjusts space between the columns */
 }
 
 .left-column, .right-column {
@@ -155,6 +156,13 @@ header, footer {
 }
 
 @media (max-width: 768px) {
+
+    header, .video-container, .calendly-embed, .testimonials, footer {
+        max-width: 95%; /* Allows more content width on smaller screens */
+        margin: 20px auto;
+        padding: 20px; /* Maintains padding for a consistent look */
+    }
+    
     h1 {
         font-size: 28px; /* Adjust as needed */
     }
