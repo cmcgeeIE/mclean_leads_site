@@ -82,6 +82,13 @@ header, footer {
     height: 600px; /* Adjust height as needed */
 }
 
+.calendly-embed {
+    max-width: 100%; /* Allows the Calendly embed to use up to 100% of its parent container's width */
+    width: 100%; /* Ensures the embed takes the full width allowed */
+    margin: 20px auto; /* Keeps it centered with vertical spacing */
+    height: 700px; /* Adjust this value as needed to prevent squishing */
+}
+
 .personal-approach {
     font-size: 2.5em; /* Larger font size for visibility */
     font-weight: bold; /* Makes the text bold */
@@ -157,10 +164,15 @@ header, footer {
 
 @media (max-width: 768px) {
 
-    header, .video-container, .calendly-embed, .testimonials, footer {
+    header, .video-container, .testimonials, footer {
         max-width: 95%; /* Allows more content width on smaller screens */
         margin: 20px auto;
         padding: 20px; /* Maintains padding for a consistent look */
+    }
+    
+    .calendly-embed {
+        height: auto; /* Allows the height to adjust based on the content */
+        padding-bottom: 20px; /* Adds space at the bottom for scrolling */
     }
     
     h1 {
