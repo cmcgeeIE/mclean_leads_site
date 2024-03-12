@@ -141,33 +141,24 @@ header, footer {
     flex: 1; /* Each column takes up equal space */
 }
 
+.right-column {
+    flex: 0.8; /* Makes the right column skinnier */
+    text-align: center; /* Centers content in the right column */
+}
+
 .right-column img {
-    width: 33%; /* Adjust width as needed */
-    height: auto;
-    display: block;
-    margin: 0 auto 20px; /* Adds bottom margin for spacing below the image */
+    width: 50%; /* Adjust the image size to be smaller */
+    margin: 0 auto; /* Centers the image */
 }
 
-.customer-name {
-    font-size: 1.2em; /* Larger font size for emphasis */
-    font-weight: bold; /* Bold for the person's name */
-    color: #fff; /* Adjust color if needed */
-    text-align: center; /* Center align */
-    margin-bottom: 5px; /* Spacing to the next item */
-}
-
-.customer-location {
-    font-size: 1em; /* Adjust size as needed */
-    color: #ddd; /* Lighter color for contrast */
-    text-align: center; /* Center align */
-    margin-bottom: 15px; /* More spacing to the case study text */
+.customer-name, .customer-location {
+    display: block; /* Ensures these elements are centered by taking full width */
 }
 
 .case-study {
-    font-size: 0.9em; /* Slightly smaller font size for the case study text */
-    color: #ccc; /* Even lighter or different color if desired */
-    text-align: justify; /* Justify align for better readability */
-    margin-bottom: 20px; /* Bottom margin for spacing */
+    text-align: left; /* Left-justifies the case study text */
+    margin: 0 auto; /* Ensures the text block is centered in the column */
+    max-width: 90%; /* Optional: Adjusts the maximum width of the case study text for better readability */
 }
 
 .case-study p {
@@ -238,5 +229,19 @@ body {
 
     .left-column, .right-column {
         width: 100%; /* Full width on small screens */
+    }
+
+    .right-column {
+        flex: 1; /* Resets the column size on small screens for better readability */
+    }
+
+    .right-column img, .customer-name, .customer-location, .case-study {
+        width: auto; /* Resets the width to auto for small screens */
+        max-width: 100%; /* Ensures content does not exceed the column width */
+        text-align: center; /* Centers the text for a consistent look on small screens */
+    }
+
+    .case-study {
+        text-align: center; /* Optionally adjust if you prefer case study text to be centered on small screens */
     }
 }
