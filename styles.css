@@ -83,10 +83,12 @@ header, footer {
 }
 
 .personal-approach {
+    font-size: 2.5em; /* Larger font size */
+    font-weight: bold; /* Bold text */
     text-align: center;
     margin: 20px auto;
     max-width: 80%;
-    color: #fff; /* Assuming a dark theme; adjust as needed */
+    color: #fff; /* Adjust color if needed based on your site's design */
 }
 
 .testimonials {
