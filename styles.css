@@ -75,6 +75,27 @@ header, footer {
     background-color: #367c39; /* Darker shade on hover for interaction feedback */
 }
 
+.calendly-embed iframe {
+    width: 80%;
+    margin: 0 auto;
+    display: block; /* Ensure the iframe is centered */
+    height: 600px; /* Adjust height as needed */
+}
+
+.personal-approach {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 80%;
+    color: #fff; /* Assuming a dark theme; adjust as needed */
+}
+
+.testimonials {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 28px; /* Adjust as needed */
