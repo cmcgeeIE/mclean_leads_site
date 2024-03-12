@@ -141,6 +141,19 @@ header, footer {
     flex: 1; /* Each column takes up equal space */
 }
 
+.left-column h3 {
+    font-size: 2em; /* Increase font size for the heading */
+}
+
+.left-column {
+    text-align: center; /* Optionally, center the text if desired */
+}
+
+/* Adjust if you have specific paragraph text in the left column */
+.left-column p {
+    font-size: 1em; /* Increase font size for any paragraph text, adjust as needed */
+}
+
 .right-column .customer-name, .right-column .customer-location {
     font-size: 2em; /* Increase font size for name and location */
 }
