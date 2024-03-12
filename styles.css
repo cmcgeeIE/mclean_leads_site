@@ -112,6 +112,14 @@ header, footer {
 .left-column, .right-column {
     flex: 1; /* Each column takes up equal space */
 }
+
+.customer-image {
+    width: 50%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is properly block level for margin auto to work */
+    margin: 0 auto; /* Center the image in the column */
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 28px; /* Adjust as needed */
