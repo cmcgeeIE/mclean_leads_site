@@ -98,11 +98,20 @@ header, footer {
 
 .testimonials {
     text-align: center;
-    margin-top: 20px;
     max-width: 80%;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
+.testimonial-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Adjust based on your content */
+    gap: 20px; /* Space between columns */
+}
+
+.left-column, .right-column {
+    flex: 1; /* Each column takes up equal space */
+}
 @media (max-width: 768px) {
     h1 {
         font-size: 28px; /* Adjust as needed */
@@ -123,5 +132,13 @@ header, footer {
     .video-container iframe {
         height: auto; /* Adjust the video size for a better fit */
         width: 100%;
+    }
+
+    .testimonial-row {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        width: 100%; /* Full width on small screens */
     }
 }
