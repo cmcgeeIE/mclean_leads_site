@@ -114,7 +114,7 @@ header, footer {
 }
 
 .right-column img {
-    width: 50%; /* Adjust width as needed */
+    width: 33%; /* Adjust width as needed */
     height: auto;
     display: block;
     margin: 0 auto 20px; /* Adds bottom margin for spacing below the image */
