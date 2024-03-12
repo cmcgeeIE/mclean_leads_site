@@ -94,9 +94,8 @@ header, footer {
     text-align: center;
     margin: 20px auto 40px; /* Increased bottom margin */
     max-width: 80%;
-    color: #fff; /* White text color for contrast against the background */
+    color: #4CAF50; /* Theme green color for the entire paragraph */
 }
-
 .underline {
     text-decoration: underline; /* Underlining the specific text portion */
 }
