@@ -84,7 +84,7 @@ header, footer {
 
 .calendly-embed {
     max-width: 90%; /* Full width of its parent container */
-    margin: 20px auto; /* Centered with vertical spacing */
+    margin: 10px auto; /* Centered with vertical spacing */
     height: 700px; /* Height adjustment to prevent squishing */
 }
 
