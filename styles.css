@@ -97,7 +97,7 @@ header, footer {
     color: #fff; /* Keeps font color white */
     background-color: #4CAF50; /* Theme green color for background highlight */
     padding: 10px; /* Adds some padding around the text for better visual */
-    border-radius: 5px; /* Optional: Adds rounded corners to the highlight */
+    border-radius: 15px; /* Optional: Adds rounded corners to the highlight */
 }
 
 .underline {
