@@ -142,6 +142,17 @@ header, footer {
     margin-bottom: 20px; /* Bottom margin for spacing */
 }
 
+.case-study p {
+    font-size: 0.9em; /* Consistent font size for the case study details */
+    color: #ccc; /* Color for readability */
+    text-align: left; /* Left align for a structured look */
+    margin-bottom: 10px; /* Spacing between each detail */
+}
+
+.case-study span {
+    font-weight: bold; /* Emphasize the key information */
+    color: #fff; /* Make the key information stand out */
+}
 
 @media (max-width: 768px) {
     h1 {
