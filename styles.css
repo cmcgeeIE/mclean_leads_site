@@ -113,6 +113,13 @@ header, footer {
     flex: 1; /* Each column takes up equal space */
 }
 
+.right-column img {
+    width: 30%; /* Further reduce the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is properly block level for margin auto to work */
+    margin: 20px auto; /* Center the image in the column and add some vertical space */
+}
+
 .customer-image {
     width: 50%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
