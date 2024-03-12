@@ -141,6 +141,14 @@ header, footer {
     flex: 1; /* Each column takes up equal space */
 }
 
+.right-column .customer-name, .right-column .customer-location {
+    font-size: 2.5em; /* Increase font size for name and location */
+}
+
+.right-column .case-study p {
+    font-size: 2em; /* Increase font size for the case study text */
+}
+
 .right-column {
     flex: 0.8; /* Makes the right column skinnier */
     text-align: center; /* Centers content in the right column */
