@@ -6,7 +6,7 @@ body {
     color: #fff; /* Sets default text color to white */
 }
 
-header, .video-container, .calendly-embed, .testimonials, footer {
+header, .video-container, .testimonials, footer {
     max-width: 80%; /* Adjusts content width */
     margin: 20px auto; /* Increases margin, centers content, adds vertical space */
     padding: 20px; /* Optional: Adds padding inside these elements for additional spacing */
@@ -76,7 +76,7 @@ header, footer {
 }
 
 .calendly-embed iframe {
-    width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     display: block; /* Ensure the iframe is centered */
     height: 600px; /* Adjust height as needed */
@@ -97,7 +97,6 @@ header, footer {
     max-width: 80%;
     color: #fff; /* White text color for contrast against the background */
 }
-
 
 .underline {
     text-decoration: underline; /* Underlining the specific text portion */
