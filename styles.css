@@ -114,18 +114,34 @@ header, footer {
 }
 
 .right-column img {
-    width: 30%; /* Further reduce the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure the image is properly block level for margin auto to work */
-    margin: 20px auto; /* Center the image in the column and add some vertical space */
+    width: 50%; /* Adjust width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Adds bottom margin for spacing below the image */
 }
 
-.customer-image {
-    width: 50%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure the image is properly block level for margin auto to work */
-    margin: 0 auto; /* Center the image in the column */
+.customer-name {
+    font-size: 1.2em; /* Larger font size for emphasis */
+    font-weight: bold; /* Bold for the person's name */
+    color: #fff; /* Adjust color if needed */
+    text-align: center; /* Center align */
+    margin-bottom: 5px; /* Spacing to the next item */
 }
+
+.customer-location {
+    font-size: 1em; /* Adjust size as needed */
+    color: #ddd; /* Lighter color for contrast */
+    text-align: center; /* Center align */
+    margin-bottom: 15px; /* More spacing to the case study text */
+}
+
+.case-study {
+    font-size: 0.9em; /* Slightly smaller font size for the case study text */
+    color: #ccc; /* Even lighter or different color if desired */
+    text-align: justify; /* Justify align for better readability */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
 
 @media (max-width: 768px) {
     h1 {
