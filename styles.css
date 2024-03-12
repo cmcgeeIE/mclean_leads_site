@@ -117,7 +117,7 @@ header, footer {
     margin: 20px auto 40px; /* Increased bottom margin */
     max-width: 80%;
     color: #fff; /* Keeps font color white */
-    padding: 10px; /* Adds some padding around the text for better visual */
+    padding: 2px; /* Adds some padding around the text for better visual */
 }
 
 .testimonials-less {
@@ -126,7 +126,7 @@ header, footer {
     margin: 20px auto 40px; /* Increased bottom margin */
     max-width: 80%;
     color: #fff; /* Keeps font color white */
-    padding: 10px; /* Adds some padding around the text for better visual */
+    padding: 2px; /* Adds some padding around the text for better visual */
 }
 
 /* Ensure the .testimonial-row maintains its layout within the testimonials container */
