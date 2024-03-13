@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Not Sell My Personal Information</title>
+    <!-- Add reference to your CSS file here, if you have one -->
+</head>
+<body>
+    <h1>DO NOT TRACK OR SELL MY PERSONAL INFORMATION</h1>
+    <p>Please fill out the form below if you wish to remove yourself. You can also unsubscribe from our marketing lists by visiting the links beneath the form.</p>
+    
+    <form action="YOUR_ENDPOINT_HERE" method="POST"> <!-- Make sure to replace YOUR_ENDPOINT_HERE with the actual endpoint where the form data should be sent -->
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="street-address">Street Address:</label>
+        <input type="text" id="street-address" name="street-address">
+
+        <label for="zip-code">Zip Code:</label>
+        <input type="text" id="zip-code" name="zip-code">
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+
+        <label for="state-region">State/Region:</label>
+        <input type="text" id="state-region" name="state-region">
+
+        <label for="email">Email*:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone-number">Phone Number:</label>
+        <input type="tel" id="phone-number" name="phone-number">
+
+        <button type="submit">Submit</button>
+    </form>
+    
+    <!-- Add links for unsubscribing from marketing lists here -->
+    <div>
+        <p>Unsubscribe from our marketing lists:</p>
+        <a href="link-to-unsubscribe-from-emails">Unsubscribe from Emails</a><br>
+        <!-- Add more links as needed -->
+    </div>
+</body>
+</html>
+
