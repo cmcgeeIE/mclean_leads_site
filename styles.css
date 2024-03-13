@@ -20,19 +20,18 @@ header, footer {
     padding: 20px 10px;
 }
 
-
 .small-footer {
     text-align: center;
     font-size: 0.8em; /* Adjust the font size to ensure the footer is small and unobtrusive */
     padding: 20px 0; /* Add some padding for spacing */
-    background-color: #f2f2f2; /* Light background color for the footer, adjust as needed */
-    color: #333; /* Dark text color for readability, adjust as needed */
+    background-color: #000; /* Change background color to black */
+    color: #fff; /* Change text color to white for contrast */
     width: 100%;
     bottom: 0;
 }
 
 .small-footer a {
-    color: #6c757d; /* Example of a dull, faded color */
+    color: #6c757d; /* Dull, faded color for links */
     text-decoration: none; /* Remove underline from links */
     padding: 0 10px; /* Add some padding to space out the links */
 }
