@@ -206,6 +206,14 @@ header, footer {
     box-shadow: 0 0 30px 10px rgba(144, 238, 144, 0.6); /* Green glow effect */
 }
 
+.customer-testimonial-image {
+    max-width: 50%; /* Adjust this value as needed */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Corrects alignment issues, if any */
+    margin: 0 auto; /* Centers the image within the column */
+}
+
+
 .right-column .customer-name, .right-column .customer-location {
     font-size: 2em; /* Increase font size for name and location */
 }
