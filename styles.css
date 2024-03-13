@@ -207,7 +207,7 @@ header, footer {
 }
 
 .customer-testimonial-image {
-    max-width: 50%; /* Adjust this value as needed */
+    max-width: 60%; /* Adjust this value as needed */
     height: auto; /* Maintains the aspect ratio */
     display: block; /* Corrects alignment issues, if any */
     margin: 0 auto; /* Centers the image within the column */
