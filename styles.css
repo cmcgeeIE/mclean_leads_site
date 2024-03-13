@@ -194,6 +194,26 @@ header, footer {
     color: #fff; /* Make the key information stand out */
 }
 
+.get-me-in {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.get-me-in button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Theme color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-me-in button:hover {
+    background-color: #367c39; /* Darker shade on hover */
+}
+
 @font-face {
     font-family: 'TheBold'; /* Give your font a name */
     src: url('/fonts/the_bold_font_-_free_version_-_2023-webfont.woff2') format('woff2'), /* Primary src */
