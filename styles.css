@@ -63,7 +63,7 @@ header, footer {
 .subtext {
     font-size: 2em; /* Makes the font size smaller than its parent */
     text-align: center; /* Centers the text */
-    margin-top: 10px; /* Adds some space above the text */
+    margin-top: 5px; /* Adds some space above the text */
 }
 
 .highlight {
