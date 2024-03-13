@@ -99,8 +99,8 @@ header, footer {
     text-decoration: none;
     color: white;
     background-color: #4CAF50; /* Use the site's accent color for the button */
-    padding: 15px 30px; /* Increased padding for a larger button */
-    font-size: 20px; /* Increased font size for larger text within the button */
+    padding: 20px 35px; /* Increased padding for a larger button */
+    font-size: 25px; /* Increased font size for larger text within the button */
     border-radius: 5px;
     transition: background-color 0.3s ease;
     display: inline-block; /* Ensure button respects padding and font-size */
