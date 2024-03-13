@@ -47,6 +47,12 @@ header, footer {
     color: #ccc; /* Lighter text color if desired */
 }
 
+.emphasis {
+    font-size: 3em; /* Makes the font size smaller than its parent */
+    text-align: center; /* Centers the text */
+    margin-top: 10px; /* Adds some space above the text */
+}
+
 .subtext {
     font-size: 2.5em; /* Makes the font size smaller than its parent */
     text-align: center; /* Centers the text */
