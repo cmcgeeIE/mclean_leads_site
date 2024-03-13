@@ -20,11 +20,30 @@ header, footer {
     padding: 20px 10px;
 }
 
-.emphasis {
-    font-size: 3.5em; /* Adjust size as needed */
-    font-weight: bold;
-    color: #fff; /* Keep text color white */
-    margin: 0 20px; /* Add some margin if needed */
+.small-footer a {
+    color: #6c757d; /* Example of a dull, faded color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0 10px; /* Add some padding to space out the links */
+}
+
+.small-footer {
+    text-align: center;
+    font-size: 0.8em; /* Adjust the font size to ensure the footer is small and unobtrusive */
+    padding: 20px 0; /* Add some padding for spacing */
+    background-color: #f2f2f2; /* Light background color for the footer, adjust as needed */
+    color: #333; /* Dark text color for readability, adjust as needed */
+    width: 100%;
+    bottom: 0;
+}
+
+.small-footer a {
+    color: #333; /* Dark link color for readability, adjust as needed */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0 10px; /* Add some padding to space out the links */
+}
+
+.small-footer a:hover {
+    text-decoration: underline; /* Add underline on hover for a visual cue */
 }
 
 .subtext {
@@ -233,6 +252,7 @@ header, footer {
     background-color: #367c39; /* Darker shade on hover */
     transform: scale(1.05); /* Slightly enlarges the button on hover for feedback */
 }
+
 
 @font-face {
     font-family: 'TheBold'; /* Give your font a name */
