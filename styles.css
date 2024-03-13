@@ -197,11 +197,12 @@ header, footer {
 .get-me-in {
     text-align: center;
     margin-top: 40px;
+    padding: 20px
 }
 
 .get-me-in button {
-    font-size: 20px;
-    padding: 10px 20px;
+    font-size: 24px;
+    padding: 15px 30px;
     background-color: #4CAF50; /* Theme color */
     color: white;
     border: none;
@@ -212,6 +213,7 @@ header, footer {
 
 .get-me-in button:hover {
     background-color: #367c39; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover for feedback */
 }
 
 @font-face {
