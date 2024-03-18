@@ -54,6 +54,13 @@ header, footer {
     margin-right: 8px; /* Adds some space between the logo and the text */
 }
 
+.logo, .type_logo {
+    height: auto; /* Maintains the aspect ratio */
+    width: auto; /* Starts with auto width to maintain aspect ratio */
+    max-height: 60px; /* Limits the logo's height on larger screens */
+    margin-right: 8px; /* Adds some space between the logo and the text */
+}
+
 .emphasis {
     font-size: 3em; /* Makes the font size smaller than its parent */
     text-align: center; /* Centers the text */
@@ -300,6 +307,10 @@ body {
     header, .video-container, .testimonials, footer {
         max-width: 95%; /* Adjusts content width on smaller screens */
         padding: 20px; /* Consistent padding for a cleaner look */
+    }
+
+    .logo, .type_logo {
+        max-height: 40px; /* Adjusts the logo's size for smaller screens */
     }
     
     .calendly-embed {
