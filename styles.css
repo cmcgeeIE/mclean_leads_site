@@ -51,7 +51,7 @@ header, footer {
     height: 1em; /* Adjusts the logo to be about the same size as the surrounding text */
     width: auto; /* Keeps the logo's aspect ratio intact */
     vertical-align: -3px;
-    margin-right: 10px; /* Adds some space between the logo and the text */
+    margin-right: 15px; /* Adds some space between the logo and the text */
 }
 
 .logo, .type_logo {
@@ -59,7 +59,7 @@ header, footer {
     width: auto; /* Starts with auto width to maintain aspect ratio */
     vertical-align: middle;
     max-height: 60px; /* Limits the logo's height on larger screens */
-    margin-right: 8px; /* Adds some space between the logo and the text */
+    margin-right: 15px; /* Adds some space between the logo and the text */
 }
 
 .emphasis {
