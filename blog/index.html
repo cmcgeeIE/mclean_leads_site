@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McClean Leads Blog</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Assuming you use the same CSS file -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>McClean Leads Blog</h1>
+    </header>
+
+    <div class="blog-content">
+        <!-- Blog snippets will be dynamically loaded here -->
+    </div>
+
+    <footer class="small-footer">
+        <p>
+            <a href="/legal/privacy_policy.html">Privacy Policy</a>
+            <a href="/legal/terms.html">Terms & Conditions</a>
+            <a href="/legal/do_not_sell_my_info.html">Do Not Sell My Personal Information</a> 
+        </p>
+        <p>© 2024, by McClean Leads LLC</p>
+    </footer>
+
+    <script>
+        // Fetch blog snippets from separate HTML pages and dynamically load them
+        window.onload = function() {
+            fetchBlogSnippets();
+        }
+
+        async function fetchBlogSnippets() {
+            try {
+                const response = await fetch('blogList.json'); // JSON file containing paths to blog pages
+                const data = await response.json();
+
+                const blogContent = document.querySelector('.blog-content');
+
+                data.forEach(blog => {
+                    const snippetContainer = document.createElement('div');
+                    snippetContainer.classList.add('blog-snippet');
+
+                    const snippetLink = document.createElement('a');
+                    snippetLink.href = blog.url;
+                    snippetLink.textContent = blog.title;
+                    snippetLink.classList.add('snippet-link');
+
+                    snippetContainer.appendChild(snippetLink);
+                    blogContent.appendChild(snippetContainer);
+                });
+            } catch (error) {
+                console.error('Error fetching blog snippets:', error);
+            }
+        }
+    </script>
+</body>
+</html>
