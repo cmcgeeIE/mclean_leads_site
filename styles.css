@@ -285,6 +285,23 @@ header, footer {
     transform: scale(1.05); /* Slightly enlarges the button on hover for feedback */
 }
 
+.blog-snippet {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.snippet-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.snippet-link:hover {
+    text-decoration: underline;
+}
+
 
 @font-face {
     font-family: 'TheBold'; /* Give your font a name */
