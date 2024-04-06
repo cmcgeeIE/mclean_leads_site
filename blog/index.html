@@ -32,28 +32,29 @@
         }
 
         async function fetchBlogSnippets() {
-            try {
-                const response = await fetch('blogList.json'); // JSON file containing paths to blog pages
-                const data = await response.json();
+    try {
+        const response = await fetch('/blog/blogList.json'); // Adjust the path here
+        const data = await response.json();
 
-                const blogContent = document.querySelector('.blog-content');
+        const blogContent = document.querySelector('.blog-content');
 
-                data.forEach(blog => {
-                    const snippetContainer = document.createElement('div');
-                    snippetContainer.classList.add('blog-snippet');
+        data.forEach(blog => {
+            const snippetContainer = document.createElement('div');
+            snippetContainer.classList.add('blog-snippet');
 
-                    const snippetLink = document.createElement('a');
-                    snippetLink.href = blog.url;
-                    snippetLink.textContent = blog.title;
-                    snippetLink.classList.add('snippet-link');
+            const snippetLink = document.createElement('a');
+            snippetLink.href = `/blog/${blog.url}`; // Adjust the path here
+            snippetLink.textContent = blog.title;
+            snippetLink.classList.add('snippet-link');
 
-                    snippetContainer.appendChild(snippetLink);
-                    blogContent.appendChild(snippetContainer);
-                });
-            } catch (error) {
-                console.error('Error fetching blog snippets:', error);
-            }
-        }
+            snippetContainer.appendChild(snippetLink);
+            blogContent.appendChild(snippetContainer);
+        });
+    } catch (error) {
+        console.error('Error fetching blog snippets:', error);
+    }
+}
+
     </script>
 </body>
 </html>
