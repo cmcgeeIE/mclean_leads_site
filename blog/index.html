@@ -24,37 +24,6 @@
         </p>
         <p>© 2024, by McClean Leads LLC</p>
     </footer>
-
-    <script>
-        // Fetch blog snippets from separate HTML pages and dynamically load them
-        window.onload = function() {
-            fetchBlogSnippets();
-        }
-
-        async function fetchBlogSnippets() {
-    try {
-        const response = await fetch('../blog/blogList.json'); // Adjust the path here
-        const data = await response.json();
-
-        const blogContent = document.querySelector('.blog-content');
-
-        data.forEach(blog => {
-            const snippetContainer = document.createElement('div');
-            snippetContainer.classList.add('blog-snippet');
-
-            const snippetLink = document.createElement('a');
-            snippetLink.href = `${blog.url}`; // Adjust the path here
-            snippetLink.textContent = blog.title;
-            snippetLink.classList.add('snippet-link');
-
-            snippetContainer.appendChild(snippetLink);
-            blogContent.appendChild(snippetContainer);
-        });
-    } catch (error) {
-        console.error('Error fetching blog snippets:', error);
-    }
-}
-
     </script>
 </body>
 </html>
