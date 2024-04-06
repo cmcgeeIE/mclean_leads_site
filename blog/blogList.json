@@ -1,9 +1,11 @@
 [
     {
-        "title": "Straight from Texas: The Email Subject That Won the West",
-        "url": "../blog/blog1.html"
+        "title": "Blog Post 1",
+        "url": "blog/blog1.html"
     },
-
-    
+    {
+        "title": "Blog Post 2",
+        "url": "blog/blog2.html"
+    },
     // Add more blog entries as needed
 ]
