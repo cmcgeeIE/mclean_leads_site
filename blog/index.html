@@ -33,7 +33,7 @@
 
         async function fetchBlogSnippets() {
     try {
-        const response = await fetch('/blog/blogList.json'); // Adjust the path here
+        const response = await fetch('../blog/blogList.json'); // Adjust the path here
         const data = await response.json();
 
         const blogContent = document.querySelector('.blog-content');
