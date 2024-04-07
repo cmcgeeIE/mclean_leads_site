@@ -5,8 +5,6 @@ date: 2024-04-07
 categories: jekyll update
 ---
 
-# Straight from Texas: The Email Subject That Won the West
-
 Hey y'all, gather around because I've got a story to tell. It's about the time I dove headfirst into the wild world of cold emails, armed with nothing but my wits and a deep desire to help my brother's solar installation business shine brighter.
 
 This isn't just any story, though. It's a lesson in the power of simplicity, the art of being direct but clever, and how a dash of strategic ambiguity can turn the tide in your favor.
