@@ -1,11 +1,9 @@
 title: McClean Leads Blog
-email: 
 description: >- # this means to ignore newlines until "baseurl:"
   This is where I blog about entertaining insights.
 baseurl: "" # the subpath of your site, e.g., "/blog"
 url: "http://mccleanleads.com" # the base hostname & protocol for your site
-twitter_username: @TheCanaanMcGee
-github_username:  
+twitter_username: "@TheCanaanMcGee"
 
 # Build settings
 theme: minima
