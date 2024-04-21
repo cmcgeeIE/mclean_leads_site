@@ -22,18 +22,3 @@ title: Blog
     <input type="email" id="email" name="email" required><br>
     <button type="submit">Subscribe</button>
 </form>
-<p id="successMessage" style="display: none;">Thank you for subscribing!</p>
-</div>
-
-<script>
-document.getElementById("newsletterForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent the default form submission behavior
-
-    // Simulate form submission (replace this with your actual form submission code)
-    // For demonstration purposes, we'll just display the success message after a short delay
-    setTimeout(function() {
-        document.getElementById("newsletterForm").style.display = "none"; // Hide the form
-        document.getElementById("successMessage").style.display = "block"; // Show the success message
-    }, 1000); // Change the delay as needed
-});
-</script>
