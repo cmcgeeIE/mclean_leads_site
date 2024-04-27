@@ -88,7 +88,9 @@ And then, again either they’d disqualify themselves or we’d move on to sched
 
 Ok great. I’ll send you a calendar invite soon. Thanks for your time.”
 
-And guys, before I even started using the script, I felt 100x better. Having a cleared out path of WHAT I wanted to say and WHERE I wanted to go was a HUGE confidence booster for me. Oh my god my posture shot up and the idea of cold calling just became like any other task. Just like wiping tables, seating guests, cleaning dishes, cutting brisket, whatever other job you’ve ever had where you had clear instructions to use, cold calling became like that. 
+And guys, before I even started using the script, I felt 100x better. Having a cleared out path of WHAT I wanted to say and WHERE I wanted to go was a HUGE confidence booster for me. 
+
+Oh my god my posture shot up and the idea of cold calling just became like any other task. Just like wiping tables, seating guests, cleaning dishes, cutting brisket, whatever other job you’ve ever had where you had clear instructions to use, cold calling became like that. 
 
 And you can already guess what happened? I started having a blast! Folks were cracking up at the opener, they appreciated the effort,the cringe faded away, AND I started booking more meetings. 
 
@@ -107,8 +109,14 @@ If you’re looking to balance out your spontaneous personality, here’s my rec
 - Role-play the conversation
 
 # Why This Works: The Psychological Edge
-Writing things down and preparing in advance does more than just outline a strategy; it solidifies your commitment, and it calms your mind. The act of writing converts your strategy into a commitment, which psychologically prepares you to execute the plan effectively. This preparation reduces anxiety and boosts your confidence, allowing you to focus on the interaction instead of worrying about what to say next.
+Writing things down and preparing in advance does more than just outline a strategy; it solidifies your commitment, and it calms your mind. 
+
+The act of writing converts your strategy into a commitment, which psychologically prepares you to execute the plan effectively. 
+
+This preparation reduces anxiety and boosts your confidence, allowing you to focus on the interaction instead of worrying about what to say next.
 
 # Start Preparing Today
 
-Whether you're making sales calls, sending business emails, or entering relationships, take some time to prepare. Draft your scripts, anticipate responses, and practice your delivery. Test it out, and watch how it boosts your confidence and transforms your results. 
+Whether you're making sales calls, sending business emails, or entering relationships, take some time to prepare. 
+
+Draft your scripts, anticipate responses, and practice your delivery. Test it out, and watch how it boosts your confidence and transforms your results. 
