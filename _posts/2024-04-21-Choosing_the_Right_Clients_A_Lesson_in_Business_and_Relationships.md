@@ -37,11 +37,15 @@ I offered to drive to him, shoot the video, edit it and everything, but he didn�
 
 Still, I thought, “Oh well. We’ll just work with what they have, and once we get some leads, then he’ll start communicating.”
 
-And since the emails were taking 14-days to warm up, I redirected my efforts towards enhancing my own marketing materials and business standards. I revised my own sales script, invested time in enhancing the VSL with compelling visuals, and added special effects to make the presentation not just informative but also engaging. 
+And since the emails were taking 14-days to warm up, I redirected my efforts towards enhancing my own marketing materials and business standards. 
+
+I revised my own sales script, invested time in enhancing the VSL with compelling visuals, and added special effects to make the presentation not just informative but also engaging. 
 
 I researched the best practices of other businesses that were already focused on commercial deals. 
 
-This boosted my faith SO much! It no longer felt like that time and effort were being thrown down the drain. This revamped approach wasn't just about salvaging a bad situation; it was about setting a standard for future engagements.
+This boosted my faith SO much! It no longer felt like that time and effort were being thrown down the drain. 
+
+This revamped approach wasn't just about salvaging a bad situation; it was about setting a standard for future engagements.
 
 14 days passed, and I launched the campaign. I just knew that at least once I got a lead this CSO would see the value in my offer. 
 
