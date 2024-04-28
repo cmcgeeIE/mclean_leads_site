@@ -58,3 +58,10 @@ Now, I'm curious about y'all. Have you ever sent a cold email that made you prou
 Drop your stories in the comments. I'm all ears, and who knows? Maybe we can all learn a trick or two from each other.
 
 Remember, in the world of emails, sometimes all it takes is a little charm and a good subject line to open doors you never thought possible.
+
+<!-- Add the signup form below the blog posts -->
+<form id="newsletterForm" action="https://script.google.com/macros/s/AKfycbxBT0eCTrd4OYzQw2WWpPrCoyz_d6EegJJjotaBLnmJ3rK1ZD1x7bxA1Dr8O-_OP7wj/exec" method="post">
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <button type="submit">Subscribe</button>
+</form>
