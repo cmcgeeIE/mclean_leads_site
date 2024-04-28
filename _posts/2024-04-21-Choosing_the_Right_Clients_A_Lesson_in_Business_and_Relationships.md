@@ -25,7 +25,11 @@ Looking back on it, I knew something was off during our demo call, but I let opt
 
 I’d like to say that I picked up on this disinterest immediately and decided it would be best for us to part ways for the time being, but I didn’t do that. Instead, I chugged along and committed to making our partnership work. And as a result, I paid the price of ignorance. 
 
-The CSO, who was crucial to the success of the operation, failed to communicate effectively. Once it was just him and I on the on-boarding call and my familiar contact was no longer involved, his attitude changed. His enthusiasm was non-existent. I pushed forward anyway, thinking his attitude might improve once we gained momentum.
+The CSO, who was crucial to the success of the operation, failed to communicate effectively. 
+
+Once it was just him and I on the on-boarding call and my familiar contact was no longer involved, his attitude changed. His enthusiasm was non-existent. 
+
+I pushed forward anyway, thinking his attitude might improve once we gained momentum.
 
 So I set the emails up and started their 14-day warm-up process. And what do you know, this guy began ghosting me. After agreeing to review a video sales letter (VSL) script, he just didn’t reply. 
 
