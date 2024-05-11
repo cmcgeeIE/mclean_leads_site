@@ -4,6 +4,7 @@ title: "Straight from Texas: The Email Subject That Won the West"
 date: 2024-04-07
 categories: jekyll update
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0D967zpEObQ?si=AT7zaa_8PU5dYKSe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Hey y'all, gather around because I've got a story to tell. It's about the time I dove headfirst into the wild world of cold emails, armed with nothing but my wits and a deep desire to help my brother's solar installation business shine brighter.
 
