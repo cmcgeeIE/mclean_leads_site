@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Business Is A Video Game Created For You To Enjoy"
-date: 2024-05-011
+date: 2024-05-11
 categories: jekyll update
 ---
 
