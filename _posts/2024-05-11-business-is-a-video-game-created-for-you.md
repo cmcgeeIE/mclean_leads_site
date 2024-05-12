@@ -4,6 +4,7 @@ title: "Business Is A Video Game Created For You To Enjoy"
 date: 2024-05-11
 categories: jekyll update
 ---
+{% include youtube.html id="w9NEZNcLCAE%}
 
 11 sectors, 25 industry groups, 74 industries and 163 sub-industries. 
 
