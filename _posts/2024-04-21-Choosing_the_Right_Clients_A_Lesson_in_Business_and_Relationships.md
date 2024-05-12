@@ -4,6 +4,7 @@ title: "Choosing the Right Clients: A Lesson in Business and Relationships"
 date: 2024-04-21
 categories: jekyll update
 ---
+{% include youtube.html id="rpH0iLM75bQ" %}
 
 In the early stages of any business, the path of least resistance might seem appealing. However, a journey with my lead generation agency taught me that sometimes, the easier option isn't always the best. 
 
