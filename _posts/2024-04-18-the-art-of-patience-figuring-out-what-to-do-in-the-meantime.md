@@ -4,6 +4,7 @@ title: "The Art of Patience: Figuring Out What To Do In the Meantime"
 date: 2024-04-18
 categories: jekyll update
 ---
+{% include youtube.html id="I-aHXMeKCFg" %}
 
 Staring down the barrel of a 14-day email warm-up period, there I was. First thought? "Damn…”
 
