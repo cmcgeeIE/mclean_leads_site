@@ -4,6 +4,7 @@ title: "The Power of Preparation: How to Boost Your Confidence and Clarity in Bu
 date: 2024-05-04
 categories: jekyll update
 ---
+{% include youtube.html id="33hqBLYB-wA" %}
 
 # Why Preparation Matters
 
