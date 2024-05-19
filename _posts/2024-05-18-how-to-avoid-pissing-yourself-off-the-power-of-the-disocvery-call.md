@@ -4,6 +4,8 @@ title: "How to Avoid Pissing Yourself Off: The Power of the Discovery Call"
 date: 2024-05-18 
 categories: jekyll update
 ---
+{% include youtube.html id="NVTRsuAOuBQ" %}
+
 
 You lose when you don’t know who you’re trying to help. 
 
