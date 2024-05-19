@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Avoid Pissing Yourself Off: The Power of the Disocvery Call"
+title: "How to Avoid Pissing Yourself Off: The Power of the Discovery Call"
 date: 2024-05-18 
 categories: jekyll update
 ---
