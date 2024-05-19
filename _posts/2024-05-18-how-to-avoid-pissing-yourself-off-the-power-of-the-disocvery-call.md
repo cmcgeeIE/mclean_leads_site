@@ -1,3 +1,4 @@
+---
 layout: post
 title: "How to Avoid Pissing Yourself Off: The Power of the Disocvery Call"
 date: 2024-05-18 
