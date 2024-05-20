@@ -88,7 +88,7 @@ header, footer {
     padding-top: 25px;
     margin: 20px auto; /* Centering the video container */
     max-width: 80%; /* Control the video size */
-    box-shadow: 0 0 30px 10px rgba(144, 238, 144, 0.6); /* Maintain the glow effect */
+    box-shadow: 0 0 30px 10px rgba(255, 215, 0, 0.6); /* Gold glow effect */
     overflow: hidden; /* Clean overflow handling */
 }
 
@@ -211,7 +211,7 @@ header, footer {
     width: 100%;
     height: 100%;
     border: none;
-    box-shadow: 0 0 30px 10px rgba(144, 238, 144, 0.6); /* Green glow effect */
+    box-shadow: 0 0 30px 10px rgba(255, 215, 0, 0.6); /* Gold glow effect */
 }
 
 .customer-testimonial-image {
