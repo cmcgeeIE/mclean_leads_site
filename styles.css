@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0 20px; /* Adds padding to the left and right */
-    background-color: #000; /* Black background for the whole page */
+    background-color: #f5f5dc; /* Black background for the whole page */
     color: #fff; /* Sets default text color to white */
 }
 
@@ -10,12 +10,13 @@ header, .video-container, .testimonials, footer {
     max-width: 80%; /* Adjusts content width */
     margin: 20px auto; /* Increases margin, centers content, adds vertical space */
     padding: 20px; /* Optional: Adds padding inside these elements for additional spacing */
-     text-align: center; /* Keeps text aligned center within the header */
+    background-color: #f5f5dc; /* Cream background for consistency */
+    text-align: center; /* Keeps text aligned center within the header */
 }
 
 header, footer {
-    background-color: #000; /* Black background for consistency */
-    color: white; /* Ensures text in header and footer is white */
+    background-color: #f5f5dc; /* Cream background for consistency */
+    color: #000; /* Ensures text in header and footer is black */
     text-align: center;
     padding: 20px 10px;
 }
@@ -24,8 +25,8 @@ header, footer {
     text-align: center;
     font-size: 0.8em; /* Adjust the font size to ensure the footer is small and unobtrusive */
     padding: 20px 0; /* Add some padding for spacing */
-    background-color: #000; /* Change background color to black */
-    color: #fff; /* Change text color to white for contrast */
+    background-color: #f5f5dc; /* Change background color to cream */
+    color: #000; /* Change text color to black for contrast */
     width: 100%;
     bottom: 0;
 }
@@ -137,8 +138,8 @@ header, footer {
     text-align: center;
     margin: 20px auto 40px; /* Increased bottom margin */
     max-width: 80%;
-    color: #fff; /* Keeps font color white */
-    background-color: #4CAF50; /* Theme green color for background highlight */
+    color: #000; /* Keeps font color black */
+    background-color: #f5f5dc; /* Cream background color */
     padding: 10px; /* Adds some padding around the text for better visual */
     border-radius: 15px; /* Optional: Adds rounded corners to the highlight */
 }
