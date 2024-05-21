@@ -76,7 +76,7 @@ header, footer {
 }
 
 .highlight {
-    color: #4CAF50; /* Applies green color only to highlighted text */
+    color: #FFD700; /* Changes the color to gold */
 }
 
 .emphasis, .subtext {
