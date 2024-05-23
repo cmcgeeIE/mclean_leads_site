@@ -278,20 +278,18 @@ header, footer {
 }
 
 .screenshots-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    display: block; /* Change from flex to block */
+    text-align: center;
 }
 
 .screenshot-image {
-    max-width: 30%;
+    max-width: 80%; /* Adjust the width as needed */
     height: auto;
+    margin: 20px auto; /* Center the images with auto margins */
     border: 2px solid #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 
 .get-me-in {
     text-align: center;
