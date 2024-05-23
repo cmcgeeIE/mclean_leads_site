@@ -263,6 +263,36 @@ header, footer {
     color: #fff; /* Make the key information stand out */
 }
 
+/* New styles for the screenshots section */
+.testimonial-screenshots {
+    text-align: center;
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+.testimonial-screenshots h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.screenshots-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.screenshot-image {
+    max-width: 30%;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
 .get-me-in {
     text-align: center;
     margin-top: 40px;
@@ -378,5 +408,9 @@ body {
 
     .case-study {
         text-align: center; /* Optionally adjust if you prefer case study text to be centered on small screens */
+    }
+
+    .screenshot-image {
+        max-width: 80%;
     }
 }
