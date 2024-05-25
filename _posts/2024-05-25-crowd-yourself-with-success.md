@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Crowd Yourself with Success"
-date: 2024-05-18 
+date: 2024-05-25 
 categories: jekyll update
 ---
 {% include youtube.html id="fXNqBkltMOs" %}
