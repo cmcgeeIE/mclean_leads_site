@@ -6,171 +6,171 @@ categories: jekyll update
 ---
 {% include youtube.html id="SXlOc2b1D90" %}
 
-“He thought admiring others was a sign of weakness, a concession that someone else might be better than him.”
+<p>“He thought admiring others was a sign of weakness, a concession that someone else might be better than him.”</p>
 
-The city of Gladeus birthed killers. 
-The mothers sang lullabies of superiority and victory,
-To their children resting in cradles.
-Coding their conscience for relentless achievement.
- 
-David of Gladeus, 
-Believed he was the best. 
-He vied for the pinnacle of dominance. 
-Always setting his mind to conquer new challenges 
-And often succeeding. 
-His unwavering confidence became his defining trait
-That served him well. 
+<p>The city of Gladeus birthed killers.<br>
+The mothers sang lullabies of superiority and victory,<br>
+To their children resting in cradles.<br>
+Coding their conscience for relentless achievement.</p>
 
-“David, who in all of Gladeus is greater than you?” a thought whispered to his mind. 
+<p>David of Gladeus,<br>
+Believed he was the best.<br>
+He vied for the pinnacle of dominance.<br>
+Always setting his mind to conquer new challenges<br>
+And often succeeding.<br>
+His unwavering confidence became his defining trait<br>
+That served him well.</p>
 
-Pausing for a moment, “I can think of none.” he said grinning. 
+<p>“David, who in all of Gladeus is greater than you?” a thought whispered to his mind.</p>
 
-“And whom do you admire?” said the slithering thought.
+<p>Pausing for a moment, “I can think of none.” he said grinning.</p>
 
-“None!” proclaimed David. “To admire is to surrender!” 
+<p>“And whom do you admire?” said the slithering thought.</p>
 
-He scoffed at the notion of admiring others, 
-Believing it was a sign of weakness. 
+<p>“None!” proclaimed David. “To admire is to surrender!”</p>
 
-The thought left, 
-And David continued to ponder his response. 
-His grin slowly transformed.
-A subtle emptiness swelled within him 
-That he couldn’t quite pinpoint. 
+<p>He scoffed at the notion of admiring others,<br>
+Believing it was a sign of weakness.</p>
 
-Days passed. 
-Then months. 
-Then years.
- 
-And rather than becoming greater, 
-David appeared to shrink. . .
+<p>The thought left,<br>
+And David continued to ponder his response.<br>
+His grin slowly transformed.<br>
+A subtle emptiness swelled within him<br>
+That he couldn’t quite pinpoint.</p>
 
-The people of Gladeus began to forget him
-And he began to forget himself. 
+<p>Days passed.<br>
+Then months.<br>
+Then years.</p>
 
-His mind closed off to new ideas, 
-And his heart grew heavy from isolation. 
-His beliefs led him down 
-A path of bitterness and stagnation. 
-Stuck in a self-imposed prison of superiority. 
+<p>And rather than becoming greater,<br>
+David appeared to shrink. . .</p>
 
-As if guided by fate, 
-David stumbled into @ShaneParrish
--- Apprentice of Collins 
-And philosopher renowned for his clarity of thought. 
+<p>The people of Gladeus began to forget him<br>
+And he began to forget himself.</p>
 
-Never in a 1,000 years,
-Would David have “lowered” himself,
-To ask for assistance
-But, the pain of his imprisonment scraped away
-Till his ego diminished enough
-To allow room for growth.
- 
-“Parrish,” said David. 
-“I’ve always believed in my own abilities,”
-“That I can conquer anything I set my mind to.”
-“But lately, I’ve felt,”
+<p>His mind closed off to new ideas,<br>
+And his heart grew heavy from isolation.<br>
+His beliefs led him down<br>
+A path of bitterness and stagnation.<br>
+Stuck in a self-imposed prison of superiority.</p>
 
-“Stuck. . . “
+<p>As if guided by fate,<br>
+David stumbled into @ShaneParrish<br>
+-- Apprentice of Collins<br>
+And philosopher renowned for his clarity of thought.</p>
 
-“Like I’ve hit a wall.”
-“What am I missing?” 
+<p>Never in a 1,000 years,<br>
+Would David have “lowered” himself,<br>
+To ask for assistance<br>
+But, the pain of his imprisonment scraped away<br>
+Till his ego diminished enough<br>
+To allow room for growth.</p>
 
-Parrish nodded slowly, 
-“Confidence,”
-“Strong in you, it is”
-“But alone, it serves not.”
-“Tell me,”
-“Admire others, do you?”
+<p>“Parrish,” said David.<br>
+“I’ve always believed in my own abilities,”<br>
+“That I can conquer anything I set my mind to.”<br>
+“But lately, I’ve felt,”</p>
 
-A wince of pain showed on David’s face, 
-He furrowed his brow, 
-Shaking his head,
-“Admire others?”
-“Admiration is weakness, is it not?”
-“If I am the best, then. . .”
-“Why would I look up to anyone other than I?”
+<p>“Stuck. . .”</p>
 
-Parrish smiled knowingly, 
-Eyes twinkling, 
-“Strength in others, you must see”
-“Admiration not weakness,”
-“But power, it is.”
-“Counsel with greatness, you must.”
+<p>“Like I’ve hit a wall.”<br>
+“What am I missing?”</p>
 
-David leaned forward.
-Confused, but intrigued. 
-“But how would admiring someone else,”
-“Make me stronger?”
+<p>Parrish nodded slowly,<br>
+“Confidence,”<br>
+“Strong in you, it is”<br>
+“But alone, it serves not.”<br>
+“Tell me,”<br>
+“Admire others, do you?”</p>
 
-“Admiration,” said Parrish. 
-“Open your heart, it does.”
-“Expand your mind, it will.”
-“Learn from others, you must,”
-“Growth comes from humility,”
-“Not pride.”
+<p>A wince of pain showed on David’s face,<br>
+He furrowed his brow,<br>
+Shaking his head,<br>
+“Admire others?”<br>
+“Admiration is weakness, is it not?”<br>
+“If I am the best, then. . .”<br>
+“Why would I look up to anyone other than I?”</p>
 
-David nodded slowly, 
-Starting to understand
-“So. . . ”
-“By admiring others,”
-“I can learn from their strengths,”
-“And apply them to myself?”
+<p>Parrish smiled knowingly,<br>
+Eyes twinkling,<br>
+“Strength in others, you must see”<br>
+“Admiration not weakness,”<br>
+“But power, it is.”<br>
+“Counsel with greatness, you must.”</p>
 
-“Yes” said Parrish
-“Learn, you will.”
-“Admire strength, creativity, courage.”
-“Inspiration you will find.”
-“Better you become, through others’ excellence.”
+<p>David leaned forward.<br>
+Confused, but intrigued.<br>
+“But how would admiring someone else,”<br>
+“Make me stronger?”</p>
 
-A small smiled formed on David’s face
-“I think I’m beginning to understand”
-“To truly be the best,”
-“Is to constantly learn and grow.”
+<p>“Admiration,” said Parrish.<br>
+“Open your heart, it does.”<br>
+“Expand your mind, it will.”<br>
+“Learn from others, you must,”<br>
+“Growth comes from humility,”<br>
+“Not pride.”</p>
 
-Paarrish grinned
-His eyes gleaming
-“Correct you are.”
-“Endless is the journey of growth.”
-“Admiration your guide it will be”
-“Stronger, wiser you become.”
+<p>David nodded slowly,<br>
+Starting to understand<br>
+“So. . .”<br>
+“By admiring others,”<br>
+“I can learn from their strengths,”<br>
+“And apply them to myself?”</p>
 
-A crushing weight lifted from David’s back. 
-He nodded with gratitude. 
-“Thank you, Parrish.”
-“I will begin looking for people to admire,”
-“And let their strengths inspire me.”
+<p>“Yes” said Parrish<br>
+“Learn, you will.”<br>
+“Admire strength, creativity, courage.”<br>
+“Inspiration you will find.”<br>
+“Better you become, through others’ excellence.”</p>
 
-Parrish nodded sagely.
-“Good, that is”
-“Admiration, your path to greatness it becomes”
-“Role models, show me. Your future, I’ll show you.”
+<p>A small smile formed on David’s face<br>
+“I think I’m beginning to understand”<br>
+“To truly be the best,”<br>
+“Is to constantly learn and grow.”</p>
 
+<p>Paarrish grinned<br>
+His eyes gleaming<br>
+“Correct you are.”<br>
+“Endless is the journey of growth.”<br>
+“Admiration your guide it will be”<br>
+“Stronger, wiser you become.”</p>
 
-David walked away lighter
-Brighter
-His posture more upright 
+<p>A crushing weight lifted from David’s back.<br>
+He nodded with gratitude.<br>
+“Thank you, Parrish.”<br>
+“I will begin looking for people to admire,”<br>
+“And let their strengths inspire me.”</p>
 
-He decided to embrace admiration.
-He began to look at others not as rivals, 
-But as sources of inspiration. 
+<p>Parrish nodded sagely.<br>
+“Good, that is”<br>
+“Admiration, your path to greatness it becomes”<br>
+“Role models, show me. Your future, I’ll show you.”</p>
 
-He admired the rich man for his business acumen.
-He admired the poet for his pen.
-He admired the fighter for his bravery.
-And the painter for her creativity. 
+<p>David walked away lighter<br>
+Brighter<br>
+His posture more upright</p>
 
-This shift in perspective opened new doors
-And broadened his horizons. 
-David began to see value in other's’ work
-And how it could propel him forward. 
+<p>He decided to embrace admiration.<br>
+He began to look at others not as rivals,<br>
+But as sources of inspiration.</p>
 
-Admiration was no longer a soft concept for David
-It became nuclear energy
-He embraced it fully and let it drive him forward. 
-He surrounded himself with people who inspired him, 
-Learned from their strengths, 
-And let his admiration propel him to new heights.
+<p>He admired the rich man for his business acumen.<br>
+He admired the poet for his pen.<br>
+He admired the fighter for his bravery.<br>
+And the painter for her creativity.</p>
+
+<p>This shift in perspective opened new doors<br>
+And broadened his horizons.<br>
+David began to see value in others’ work<br>
+And how it could propel him forward.</p>
+
+<p>Admiration was no longer a soft concept for David<br>
+It became nuclear energy<br>
+He embraced it fully and let it drive him forward.<br>
+He surrounded himself with people who inspired him,<br>
+Learned from their strengths,<br>
+And let his admiration propel him to new heights.</p>
+
 
 <!-- Add the signup form below the blog posts -->
 <form id="newsletterForm" action="https://script.google.com/macros/s/AKfycbxBT0eCTrd4OYzQw2WWpPrCoyz_d6EegJJjotaBLnmJ3rK1ZD1x7bxA1Dr8O-_OP7wj/exec" method="post">
