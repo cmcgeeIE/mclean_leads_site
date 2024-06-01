@@ -4,7 +4,7 @@ title: "The Need for Admiration"
 date: 2024-06-01
 categories: jekyll update
 ---
-{% include youtube.html id="" %}
+{% include youtube.html id="SXlOc2b1D90" %}
 
 “He thought admiring others was a sign of weakness, a concession that someone else might be better than him.”
 
