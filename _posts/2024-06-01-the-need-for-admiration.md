@@ -171,3 +171,10 @@ He embraced it fully and let it drive him forward.
 He surrounded himself with people who inspired him, 
 Learned from their strengths, 
 And let his admiration propel him to new heights.
+
+<!-- Add the signup form below the blog posts -->
+<form id="newsletterForm" action="https://script.google.com/macros/s/AKfycbxBT0eCTrd4OYzQw2WWpPrCoyz_d6EegJJjotaBLnmJ3rK1ZD1x7bxA1Dr8O-_OP7wj/exec" method="post">
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <button type="submit">Subscribe</button>
+</form>
