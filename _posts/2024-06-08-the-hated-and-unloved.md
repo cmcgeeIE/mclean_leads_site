@@ -4,7 +4,7 @@ title: "The Hated and Unloved"
 date: 2024-06-08
 categories: jekyll update
 ---
-{% include youtube.html id="" %}
+{% include youtube.html id="v=IVYBMPOK4mk" %}
 
 Your blood bubbles like bacon fat because you believe a lie. 
 
