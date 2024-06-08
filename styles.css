@@ -4,6 +4,7 @@ body {
     padding: 0 20px; /* Adds padding to the left and right */
     background-color: #4169e1; /* Royal blue background for the whole page */
     color: #fff; /* Sets default text color to white */
+    animation: fadeIn 1.5s ease-in; /* Fade-in effect */
 }
 
 header, .video-container, .testimonials, footer {
@@ -331,6 +332,15 @@ header, footer {
     text-decoration: underline;
 }
 
+/* Add the keyframes for the fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 @font-face {
     font-family: 'TheBold'; /* Give your font a name */
