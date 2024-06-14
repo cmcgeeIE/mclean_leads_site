@@ -354,6 +354,39 @@ body {
     font-family: 'TheBold', sans-serif; /* Use it */
 }
 
+/* Add styles for the new YouTube videos section */
+.youtube-videos {
+    text-align: center;
+    max-width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #4169e1; /* Keep consistent with the site's theme */
+    color: #fff; /* Keep text color white */
+}
+
+.youtube-videos h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add space between video items */
+}
+
+.video-item iframe {
+    width: 100%;
+    height: auto;
+    max-width: 80%; /* Adjust the width as needed */
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 
 @media (max-width: 768px) {
 
@@ -420,5 +453,13 @@ body {
 
     .screenshot-image {
         max-width: 80%;
+    }
+
+    .video-list {
+        flex-direction: column;
+    }
+
+    .video-item iframe {
+        max-width: 100%; /* Ensure videos fit well on smaller screens */
     }
 }
