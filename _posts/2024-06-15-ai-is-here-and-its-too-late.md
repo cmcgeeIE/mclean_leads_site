@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI is Here and It's Not Going Anywere"
+title: "AI is Here and It's Too Late"
 date: 2024-06-15
 categories: jekyll update
 ---
