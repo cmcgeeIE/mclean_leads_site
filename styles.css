@@ -2,22 +2,24 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0 20px; /* Adds padding to the left and right */
-    background-color: #4169e1; /* Royal blue background for the whole page */
-    color: #fff; /* Sets default text color to white */
+    background-color: black; /* Black background for the whole page */
+    color: #00FF00; /* Neon green text color */
     animation: fadeIn 1.5s ease-in; /* Fade-in effect */
 }
 
-header, .video-container, .testimonials, footer {
+header, .video-container, .testimonials, footer, .youtube-videos {
     max-width: 80%; /* Adjusts content width */
     margin: 20px auto; /* Increases margin, centers content, adds vertical space */
     padding: 20px; /* Optional: Adds padding inside these elements for additional spacing */
-    background-color: #4169e1; /* Royal blue background for consistency */
-    color: #fff; /* Ensures text in header and footer is white */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #00FF00; /* Neon green text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px #00FF00; /* Neon green glow effect */
 }
 
 header, footer {
-    background-color: #4169e1; /* Royal blue background for consistency */
-    color: #fff; /* Ensures text in header and footer is white */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #00FF00; /* Neon green text color */
     text-align: center;
     padding: 20px 10px;
 }
@@ -26,20 +28,20 @@ header, footer {
     text-align: center;
     font-size: 0.8em; /* Adjust the font size to ensure the footer is small and unobtrusive */
     padding: 20px 0; /* Add some padding for spacing */
-    background-color: #4169e1; /* Royal blue background */
-    color: #fff; /* Change text color to white for contrast */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #00FF00; /* Neon green text color */
     width: 100%;
     bottom: 0;
 }
 
 .small-footer a {
-    color: #6c757d; /* Dull, faded color for links */
+    color: #00FF00; /* Neon green for links */
     text-decoration: none; /* Remove underline from links */
     padding: 0 10px; /* Add some padding to space out the links */
 }
 
 .small-footer a:hover {
-    color: #5a6268; /* Slightly darker color on hover for a subtle effect */
+    color: #009900; /* Darker green shade on hover */
     text-decoration: underline; /* Add underline on hover for a visual cue */
 }
 
@@ -68,12 +70,14 @@ header, footer {
     font-size: 3em; /* Makes the font size smaller than its parent */
     text-align: center; /* Centers the text */
     margin-top: 10px; /* Adds some space above the text */
+    color: #00FF00; /* Neon green text color */
 }
 
 .subtext {
     font-size: 2em; /* Makes the font size smaller than its parent */
     text-align: center; /* Centers the text */
     margin-top: 5px; /* Adds some space above the text */
+    color: #00FF00; /* Neon green text color */
 }
 
 .highlight {
@@ -90,7 +94,7 @@ header, footer {
     padding-top: 25px;
     margin: 20px auto; /* Centering the video container */
     max-width: 80%; /* Control the video size */
-    box-shadow: 0 0 30px 10px rgba(255, 215, 0, 0.6); /* Gold glow effect */
+    box-shadow: 0 0 30px 10px rgba(0, 255, 0, 0.6); /* Green glow effect */
     overflow: hidden; /* Clean overflow handling */
 }
 
@@ -107,17 +111,18 @@ header, footer {
 
 .cta-button {
     text-decoration: none;
-    color: white;
-    background-color: #4CAF50; /* Use the site's accent color for the button */
+    color: black; /* Change text color to black for contrast */
+    background-color: #00FF00; /* Neon green background */
     padding: 20px 35px; /* Increased padding for a larger button */
     font-size: 25px; /* Increased font size for larger text within the button */
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     display: inline-block; /* Ensure button respects padding and font-size */
 }
 
 .cta-button:hover {
-    background-color: #367c39; /* Darker shade on hover for interaction feedback */
+    background-color: #009900; /* Darker green shade on hover */
+    transform: scale(1.05);
 }
 
 .calendly-embed iframe {
@@ -139,8 +144,8 @@ header, footer {
     text-align: center;
     margin: 20px auto 40px; /* Increased bottom margin */
     max-width: 80%;
-    color: #fff; /* Keeps font color white */
-    background-color: #4169e1; /* Royal blue background */
+    color: #00FF00; /* Keeps font color neon green */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
     padding: 10px; /* Adds some padding around the text for better visual */
     border-radius: 15px; /* Optional: Adds rounded corners to the highlight */
 }
@@ -161,7 +166,7 @@ header, footer {
     text-align: center;
     margin: 10px auto 40px; /* Increased bottom margin */
     max-width: 80%;
-    color: #fff; /* Keeps font color white */
+    color: #00FF00; /* Keeps font color neon green */
     padding: 2px; /* Adds some padding around the text for better visual */
 }
 
@@ -170,7 +175,7 @@ header, footer {
     text-align: center;
     margin: 10px auto 40px; /* Increased bottom margin */
     max-width: 80%;
-    color: #fff; /* Keeps font color white */
+    color: #00FF00; /* Keeps font color neon green */
     padding: 2px; /* Adds some padding around the text for better visual */
 }
 
@@ -213,7 +218,7 @@ header, footer {
     width: 100%;
     height: 100%;
     border: none;
-    box-shadow: 0 0 30px 10px rgba(255, 215, 0, 0.6); /* Gold glow effect */
+    box-shadow: 0 0 30px 10px rgba(0, 255, 0, 0.6); /* Green glow effect */
 }
 
 .customer-testimonial-image {
@@ -222,7 +227,6 @@ header, footer {
     display: block; /* Corrects alignment issues, if any */
     margin: 0 auto; /* Centers the image within the column */
 }
-
 
 .right-column .customer-name, .right-column .customer-location {
     font-size: 2em; /* Increase font size for name and location */
@@ -261,7 +265,7 @@ header, footer {
 
 .case-study span {
     font-weight: bold; /* Emphasize the key information */
-    color: #fff; /* Make the key information stand out */
+    color: #00FF00; /* Make the key information stand out */
 }
 
 /* New styles for the screenshots section */
@@ -274,7 +278,7 @@ header, footer {
 .testimonial-screenshots h2 {
     font-size: 2.5em;
     font-weight: bold;
-    color: #fff;
+    color: #00FF00; /* Keeps font color neon green */
     margin-bottom: 20px;
 }
 
@@ -287,9 +291,9 @@ header, footer {
     max-width: 80%; /* Adjust the width as needed */
     height: auto;
     margin: 20px auto; /* Center the images with auto margins */
-    border: 2px solid #fff;
+    border: 2px solid #00FF00; /* Neon green border */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
 }
 
 .get-me-in {
@@ -302,28 +306,28 @@ header, footer {
     font-family: 'TheBold', sans-serif; /* Ensures consistency with the site's font */
     font-size: 24px;
     padding: 15px 30px;
-    background-color: #4CAF50; /* Theme color */
-    color: white;
+    background-color: #00FF00; /* Neon green background */
+    color: black; /* Text color for contrast */
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .get-me-in button:hover {
-    background-color: #367c39; /* Darker shade on hover */
+    background-color: #009900; /* Darker green shade on hover */
     transform: scale(1.05); /* Slightly enlarges the button on hover for feedback */
 }
 
 .blog-snippet {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
     border-radius: 5px;
 }
 
 .snippet-link {
-    color: #333;
+    color: #00FF00; /* Neon green for links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -360,14 +364,14 @@ body {
     max-width: 80%;
     margin: 40px auto;
     padding: 20px;
-    background-color: #4169e1; /* Keep consistent with the site's theme */
-    color: #fff; /* Keep text color white */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #00FF00; /* Neon green text color */
 }
 
 .youtube-videos h2 {
     font-size: 2.5em;
     font-weight: bold;
-    color: #fff;
+    color: #00FF00; /* Neon green text color */
     margin-bottom: 20px;
 }
 
@@ -380,14 +384,13 @@ body {
 .video-item iframe {
     width: 100%;
     height: auto;
-    max-width: 80%; /* Adjust the width as needed */
+    max-width: 100%; /* Adjust the width as needed */
     aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
     margin: 0 auto;
-    border: 2px solid #fff;
+    border: 2px solid #00FF00; /* Neon green border */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
 }
-
 
 @media (max-width: 768px) {
 
@@ -395,7 +398,7 @@ body {
         padding: 0; /* Reduces padding on smaller screens to give more space */
     }
     
-    header, .video-container, .testimonials, footer {
+    header, .video-container, .testimonials, footer, .youtube-videos {
         max-width: 95%; /* Adjusts content width on smaller screens */
         padding: 20px; /* Consistent padding for a cleaner look */
     }
@@ -411,10 +414,12 @@ body {
     
     h1 {
         font-size: 28px; /* Adjust as needed */
+        color: #00FF00; /* Neon green text color */
     }
 
     .emphasis {
         font-size: 28px; /* Adjust the main text size for mobile */
+        color: #00FF00; /* Neon green text color */
     }
 
     .highlight {
@@ -423,6 +428,7 @@ body {
 
     .subtext {
         font-size: 24px; /* Adjust the subtext size for mobile */
+        color: #00FF00; /* Neon green text color */
     }
 
     .video-container iframe {
