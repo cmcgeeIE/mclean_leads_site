@@ -179,26 +179,9 @@ header, footer {
     padding: 2px; /* Adds some padding around the text for better visual */
 }
 
-/* Updated Testimonial Styles */
-.testimonial {
-    padding: 20px;
-    border: 1px solid #e0e0e0;
-    margin-bottom: 20px;
-    background-color: #1a1a1a;
-    color: #00FF00;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #00FF00;
-    position: relative;
-    overflow: hidden;
-}
-
-.testimonial:nth-child(odd) {
-    background-color: #2b2b2b;
-}
-
+/* Ensure the .testimonial-row maintains its layout within the testimonials container */
 .testimonial-row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px; /* Adjusts space between the columns */
