@@ -185,6 +185,19 @@ header, footer {
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px; /* Adjusts space between the columns */
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial-row::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #00FFFF; /* Cyan separator */
 }
 
 .left-column, .right-column {
