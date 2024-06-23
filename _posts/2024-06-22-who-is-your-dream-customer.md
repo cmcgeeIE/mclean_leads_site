@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: "Who is Your Dream Customer?"
+date: 2024-06-22
+categories: jekyll update
+---
+{% include youtube.html id="" %}
 
 If you’re not fired up to serve, it’s because you don’t care for your clients. 
 
