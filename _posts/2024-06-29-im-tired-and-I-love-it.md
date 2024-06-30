@@ -5,7 +5,7 @@ date: 2024-06-25
 categories: jekyll update
 ---
 
-{% include youtube.html id="" %}
+{% include youtube.html id="397fO68yTgQ" %}
 
 If you’re tired, admit it to yourself. 
 
