@@ -4,7 +4,7 @@ title: "Long Live the King"
 date: 2024-07-06
 categories: jekyll update
 ---
-{% include youtube.html id="" %}
+{% include youtube.html id="D9UMst7Q5jg" %}
 
 Betrayal is unavoidable.
 
