@@ -4,6 +4,8 @@ title: "Long Live the King"
 date: 2024-07-06
 categories: jekyll update
 ---
+{% include youtube.html id="" %}
+
 Betrayal is unavoidable.
 
 I’ll bet even you have betrayed yourself in the past.
