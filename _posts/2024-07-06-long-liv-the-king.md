@@ -46,7 +46,7 @@ And people betray one another all the time (sometimes without even understanding
 - **Rama and Kaikeyi**: In the epic Ramayana, Rama was betrayed by his stepmom, Kaikeyi, who wanted her son Bharata to be king. She used a promise from Rama's dad to send Rama into exile for fourteen years.
 - **Scar and Mufasa in The Lion King**: Scar betrays his brother Mufasa in a power grab, orchestrating his death to become king.
   > “Long live the King.”  
-  > Scar, The Lion King.
+  > ―Scar, The Lion King.
 - **Saruman in The Lord of the Rings**: Saruman, once a leader of the wizards, betrays his allies by joining Sauron and attempting to take over Middle-earth for himself.
 - **Anakin and Yoda in Star Wars**: Anakin’s turn to the dark side and transformation into Darth Vader was a betrayal to Yoda and the Jedi Order. Anakin's fall contributed significantly to the near destruction of the Jedi and the rise of the Galactic Empire.
 
