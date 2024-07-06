@@ -1,4 +1,10 @@
-# Betrayal is an Unavoidable Aspect of Life
+---
+layout: post
+title: "Long Live the King"
+date: 2024-07-06
+categories: jekyll update
+---
+Betrayal is unavoidable.
 
 I’ll bet even you have betrayed yourself in the past.
 
