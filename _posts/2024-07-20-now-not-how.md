@@ -74,4 +74,4 @@ Especially in the beginning when you have low experience, you have so little to 
 
 Launch the campaign! Test the copy! Experiment! 
 
-Canaan 
+- Canaan 
